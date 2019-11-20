@@ -19,6 +19,33 @@ pipeline {
 		sh 'docker push gurjeet151994/simple-project:latest'
             }
         }
+<<<<<<< HEAD
+    
+      stage('Testing Environment') {
+=======
     }
+
+  stage('Testing Environment') {
+>>>>>>> f2ac6c0fbecee2487a26a24cbe6f887ad40d3bdb
+            steps {
+                echo "hello"
+            }
+        }
+      stage('Staging') {
+            steps {
+                echo "hello"
+            }
+        }
+      stage('Production') {
+            steps {
+                echo "hello"
+            }
+        }
+<<<<<<< HEAD
+    
+ }
 }
+=======
+    }
+>>>>>>> f2ac6c0fbecee2487a26a24cbe6f887ad40d3bdb
 
