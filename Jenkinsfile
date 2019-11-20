@@ -26,7 +26,10 @@ pipeline {
     }
 
   stage('Testing Environment') {
+<<<<<<< HEAD
 >>>>>>> f2ac6c0fbecee2487a26a24cbe6f887ad40d3bdb
+=======
+>>>>>>> e82b9d3221cb665a65d8dd29def4da50863d6f57
             steps {
                 echo "hello"
             }
@@ -42,10 +45,14 @@ pipeline {
             }
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
     
  }
 }
 =======
     }
 >>>>>>> f2ac6c0fbecee2487a26a24cbe6f887ad40d3bdb
+=======
+    }
+>>>>>>> e82b9d3221cb665a65d8dd29def4da50863d6f57
 
