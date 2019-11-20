@@ -32,8 +32,14 @@ pipeline {
             }
         }
       stage('Production') {
-            steps {
-                echo "hello"
+            when{
+                expression{
+                    env.feature=='master'
+                }
+            }
+               steps{
+                   echo "production"
+               } 
             }
         }
     }
